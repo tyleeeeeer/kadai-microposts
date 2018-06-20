@@ -6,6 +6,9 @@ use Illuminate\Http\Request;
 
 use App\Http\Controllers\Controller;
 
+use App\User;
+use App\Micropost;
+
 class MicropostsController extends Controller
 {
 
@@ -48,5 +51,10 @@ class MicropostsController extends Controller
         return redirect()->back();
     }
     
+    
+    
+    
+    
+
     
 }
